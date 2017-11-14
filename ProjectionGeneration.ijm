@@ -53,7 +53,7 @@ ch2=DefineMergeLUT(MergeLUT2);
 
 for (i = 0; i < list.length; i++){
 	File.makeDirectory(experiment + list[i] + "PROJ/");
-	run("Image Sequence...", "open=[" + experiment + list[i] + "Images brutes/" + "] number=[] starting=1 increment=1 scale=100 file=[] sort");
+	run("Image Sequence...", "open=[" + experiment + list[i] + "Raw/" + "] number=[] starting=1 increment=1 scale=100 file=[] sort");
 	name = substring(list[i],0,lastIndexOf(list[i],"/"));
 	getDimensions(width, height, channels, slices, frames);
 
