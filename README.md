@@ -1,4 +1,4 @@
-# FIJI-macros
+# FIJI image preparation macros
 Process microscopy images for visualisation and quantifications.
 
 Mount_Images.ijm :
