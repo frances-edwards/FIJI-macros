@@ -1,6 +1,13 @@
 # FIJI-macros
 Process microscopy images for visualisation and quantifications.
 
+Mount_Images.ijm :
+
+Generate channel composites and projections from multi-dimensional microscopy images saved as individual timepoint and channel files.
+Allows to choose LUTs, projections.
+Macro runs on file containing individual image files, including an nd file.
+Output images saved in MountedImages folder.
+
 ProjectionGeneration.ijm :
 
 Generate z-projected single-channel xyt stacks from files generated with the JD lab spinning disc microscope.
